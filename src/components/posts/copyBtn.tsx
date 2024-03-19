@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 
 function CopyBtn({ id }: { id: number }) {
   const copyToClipBoard = () => {
-    let currentUrl = `http://localhost:3000/poems/${id}/message`;
+    let currentUrl = `https://feeling-lemon.vercel.app/poems/${id}/message`;
     let isCopy = copy(currentUrl);
     if (isCopy) {
       toast.success("Copy to clipboard !");
