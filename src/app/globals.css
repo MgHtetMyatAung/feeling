@@ -79,3 +79,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.message-box {
+  background-image: linear-gradient(to top, #f0dad8 0%, #f5efef 100%);
+}
+
+.item-box {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.main-box {
+}
